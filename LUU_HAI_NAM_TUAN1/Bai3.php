@@ -22,7 +22,7 @@ $datetime1 = new DateTime("2020-04-12");
 echo "Ngày thứ nhất: ". $datetime1->format('d/m/Y') . "<br>";
 
 $datetime2 = new DateTime("2021-04-01");
-echo "Ngày thứ hai: ". $datetime1->format('d/m/Y') . "<br>";
+echo "Ngày thứ hai: ". $datetime1->format('d/m/Y') . "<br>" ;
 
 $difference = $datetime1->diff($datetime2);
 
