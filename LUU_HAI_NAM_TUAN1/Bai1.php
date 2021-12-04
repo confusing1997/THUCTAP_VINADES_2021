@@ -9,8 +9,7 @@ echo "BÀI 1: <br>
     6. Xóa 1 phần tử trong mảng có giá trị bất kỳ<br>
     7. Tìm kiếm giá trị lớn nhất và nhỏ nhất trong mảng<br>
     8. Hiển thị danh sách các phần tử và số lần xuất hiện trong mảng<br>
-    9. Chuyển mảng đã cho thành chuỗi JSON <br> <br>
-";
+    9. Chuyển mảng đã cho thành chuỗi JSON <br> <br>";
 
 echo "<br> <br>";
 
