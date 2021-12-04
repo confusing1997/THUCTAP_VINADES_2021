@@ -5,7 +5,7 @@ echo "Bài tập với chuỗi <br>
 2. Chuyển chuỗi đã cho thành chữ HOA <br>
 3. Kiểm tra xem chuỗi đã cho có chứa một chuỗi nào đó không <br>
 4. Đếm số ký tự xuất hiện trong chuỗi và hiển thị <br>
-5. Thay thế chữ bất kỳ trong chuỗi thành chữ khác <br> <br> <br>";
+5. Thay thế chữ bất kỳ trong chuỗi thành chữ khác <br> <br> <br>" ;
 
 
 if (isset($_GET['submit_btn']))
