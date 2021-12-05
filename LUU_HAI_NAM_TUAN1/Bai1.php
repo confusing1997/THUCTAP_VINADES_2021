@@ -48,14 +48,10 @@ echo "<br> <br>";
 
 echo "4. Hiện thị 5 phần tử lớn nhất: ";
 
-rsort($array);
-
-for ($i = 0; $i <= 4; $i++)
+for ($i = $arrCount-1; $i > $arrCount-6; $i--)
 {
     echo $array[$i] . " ";
 }
-
-echo $array[$i];
 
 echo "<br> <br>";
 
@@ -95,13 +91,7 @@ echo "Giá trị nhỏ nhất trong mảng: ". min($array);
 echo "<br>";
 echo "<br>";
 
-echo "8. Chuyển mảng đã cho thành chuối JSON: ";
-echo json_encode($array);
-
-echo "<br>";
-echo "<br>";
-
-echo "9. Tìm kiếm giá trị xuất hiện trong mảng hay không và hiển thị số lần xuất hiện: ". "<br>";
+echo "8. Tìm kiếm giá trị xuất hiện trong mảng hay không và hiển thị số lần xuất hiện: ". "<br>";
 $array = array(11, 256, 342, -2, -5, 25, 43,  77, 99, 9, 910, 311, 120);
 if (isset($_GET['submit_btn']))
 {
@@ -117,8 +107,17 @@ if (isset($_GET['submit_btn']))
     }
 
     echo "Số bạn vừa nhập: ". $val . "<br>";
-    echo "Số lần xuất hiện trong mảng: " . $soLanXuatHien;
+    echo "Số lần xuất hiện trong mảng: " . $soLanXuatHien . "<br> <br>";
 }
+
+
+echo "9. Chuyển mảng đã cho thành chuối JSON: ";
+echo json_encode($array);
+
+echo "<br>";
+echo "<br>";
+
+
 
 ?>
 
